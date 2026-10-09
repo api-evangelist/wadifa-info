@@ -1,0 +1,113 @@
+openapi: 3.2.0
+info:
+  title: Wadifa Info Concours API
+  version: 1.0.0
+  contact:
+    email: contact@wadifa-info.com
+    url: https://www.wadifa-info.com/developpeurs
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  description: 'Operations tagged Concours across 2 of this provider''s published API definitions: wadifa-info-openapi.json, wadifa-info-openapi.yml. Each path carries the servers of the definition it was published in.'
+servers:
+- url: https://www.wadifa-info.com
+tags:
+- name: Concours
+paths:
+  /api/v1/concours:
+    get:
+      summary: Open public-sector recruitment competitions
+      parameters:
+      - name: lang
+        in: query
+        schema:
+          type: string
+          enum:
+          - fr
+          - ar
+          default: fr
+      - name: limit
+        in: query
+        schema:
+          type: integer
+          minimum: 1
+          maximum: 2000
+          default: 500
+      responses:
+        '200':
+          description: List of open concours
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConcoursList'
+      tags:
+      - Concours
+      operationId: getApiV1Concours
+      x-operation-id-source: derived
+    servers:
+    - url: https://www.wadifa-info.com
+components:
+  schemas:
+    ConcoursList:
+      type: object
+      properties:
+        attribution:
+          $ref: '#/components/schemas/Attribution'
+        generated:
+          type: string
+          format: date-time
+        count:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Concours'
+    Attribution:
+      type: object
+      properties:
+        license:
+          type: string
+        license_url:
+          type: string
+          format: uri
+        required:
+          type: string
+        docs:
+          type: string
+          format: uri
+    Concours:
+      type: object
+      properties:
+        id:
+          type: integer
+        grade:
+          type: string
+        employer:
+          type:
+          - string
+          - 'null'
+        posts:
+          type:
+          - integer
+          - 'null'
+        published:
+          type:
+          - string
+          - 'null'
+          format: date
+        deadline:
+          type:
+          - string
+          - 'null'
+          format: date
+        url:
+          type: string
+          format: uri
+        official_notice:
+          type:
+          - string
+          - 'null'
+          format: uri
+x-refined-from:
+- wadifa-info-openapi.json
+- wadifa-info-openapi.yml

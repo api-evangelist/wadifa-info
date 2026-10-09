@@ -1,0 +1,20 @@
+name: Wadifa Info API conventions
+generated: '2026-10-09'
+method: searched
+source: https://www.wadifa-info.com/developpeurs
+auth: none (Pas de clé, pas d'inscription)
+read_only: true
+idempotency:
+  coverage: na
+  note: Read-only API (all operations are GET); no write surface.
+reversibility:
+  status: na
+  note: Read-only API, nothing to reverse.
+pagination:
+  style: limit
+  params: [limit]
+  note: "?limit= (max 2000) on /api/v1/concours"
+localization: "?lang=ar for Arabic"
+caching: data changes at most hourly; clients asked to cache
+cors: open
+licensing: CC BY 4.0, attribution with visible link to each item's url field

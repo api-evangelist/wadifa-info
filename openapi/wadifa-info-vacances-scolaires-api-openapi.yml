@@ -1,0 +1,60 @@
+openapi: 3.2.0
+info:
+  title: Wadifa Info Vacances Scolaires API
+  version: 1.0.0
+  contact:
+    email: contact@wadifa-info.com
+    url: https://www.wadifa-info.com/developpeurs
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  description: 'Operations tagged Vacances Scolaires across 2 of this provider''s published API definitions: wadifa-info-openapi.json, wadifa-info-openapi.yml. Each path carries the servers of the definition it was published in.'
+servers:
+- url: https://www.wadifa-info.com
+tags:
+- name: Vacances Scolaires
+paths:
+  /api/v1/vacances-scolaires:
+    get:
+      summary: Moroccan school breaks for the 2026/2027 school year (ministerial decision…
+      responses:
+        '200':
+          description: School breaks
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  source:
+                    type: string
+                  license:
+                    type: string
+                  school_year:
+                    type: string
+                  basis:
+                    type: string
+                  breaks:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        start:
+                          type: string
+                          format: date
+                        end:
+                          type: string
+                          format: date
+                          description: inclusive
+                        name_fr:
+                          type: string
+                        name_ar:
+                          type: string
+      tags:
+      - Vacances Scolaires
+      operationId: getApiV1VacancesScolaires
+      x-operation-id-source: derived
+    servers:
+    - url: https://www.wadifa-info.com
+x-refined-from:
+- wadifa-info-openapi.json
+- wadifa-info-openapi.yml

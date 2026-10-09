@@ -1,0 +1,16 @@
+name: Wadifa Info API plans
+generated: '2026-10-09'
+method: searched
+source: https://www.wadifa-info.com/developpeurs
+audience: developer-api
+pricing_basis: free
+published: false
+delivery:
+  delivery: managed
+plan_count: 1
+plans:
+- name: Free open data API
+  description: Free read-only API, no key and no sign-up, CC BY 4.0 with attribution.
+  price_text: "Pas de clé, pas d'inscription"
+  features: ["Licence : CC BY 4.0, usage commercial compris", "CORS ouvert"]
+  limits: ["ne pas dépasser une requête par minute"]

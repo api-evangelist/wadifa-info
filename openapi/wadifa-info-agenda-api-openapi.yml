@@ -1,0 +1,41 @@
+openapi: 3.2.0
+info:
+  title: Wadifa Info Agenda API
+  version: 1.0.0
+  contact:
+    email: contact@wadifa-info.com
+    url: https://www.wadifa-info.com/developpeurs
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  description: 'Operations tagged Agenda across 2 of this provider''s published API definitions: wadifa-info-openapi.json, wadifa-info-openapi.yml. Each path carries the servers of the definition it was published in.'
+servers:
+- url: https://www.wadifa-info.com
+tags:
+- name: Agenda
+paths:
+  /agenda/dates-limites:
+    get:
+      summary: iCalendar feed of open concours deadlines
+      parameters:
+      - name: lang
+        in: query
+        schema:
+          type: string
+          enum:
+          - fr
+          - ar
+      responses:
+        '200':
+          description: text/calendar
+          content:
+            text/calendar: {}
+      tags:
+      - Agenda
+      operationId: getAgendaDatesLimites
+      x-operation-id-source: derived
+    servers:
+    - url: https://www.wadifa-info.com
+x-refined-from:
+- wadifa-info-openapi.json
+- wadifa-info-openapi.yml

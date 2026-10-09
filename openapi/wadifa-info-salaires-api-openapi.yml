@@ -1,0 +1,82 @@
+openapi: 3.2.0
+info:
+  title: Wadifa Info Salaires API
+  version: 1.0.0
+  contact:
+    email: contact@wadifa-info.com
+    url: https://www.wadifa-info.com/developpeurs
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  description: 'Operations tagged Salaires across 2 of this provider''s published API definitions: wadifa-info-openapi.json, wadifa-info-openapi.yml. Each path carries the servers of the definition it was published in.'
+servers:
+- url: https://www.wadifa-info.com
+tags:
+- name: Salaires
+paths:
+  /api/v1/salaires:
+    get:
+      summary: Indicative net monthly salary by civil-service grade
+      parameters:
+      - name: lang
+        in: query
+        schema:
+          type: string
+          enum:
+          - fr
+          - ar
+          default: fr
+      responses:
+        '200':
+          description: Salaries by grade
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SalaryList'
+      tags:
+      - Salaires
+      operationId: getApiV1Salaires
+      x-operation-id-source: derived
+    servers:
+    - url: https://www.wadifa-info.com
+components:
+  schemas:
+    Salary:
+      type: object
+      properties:
+        grade:
+          type: string
+        net_monthly_mad:
+          type: integer
+        url:
+          type: string
+          format: uri
+    Attribution:
+      type: object
+      properties:
+        license:
+          type: string
+        license_url:
+          type: string
+          format: uri
+        required:
+          type: string
+        docs:
+          type: string
+          format: uri
+    SalaryList:
+      type: object
+      properties:
+        attribution:
+          $ref: '#/components/schemas/Attribution'
+        notice:
+          type: string
+        count:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Salary'
+x-refined-from:
+- wadifa-info-openapi.json
+- wadifa-info-openapi.yml

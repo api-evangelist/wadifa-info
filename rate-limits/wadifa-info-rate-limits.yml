@@ -1,0 +1,12 @@
+name: Wadifa Info rate limits
+generated: '2026-10-09'
+method: searched
+source: https://www.wadifa-info.com/developpeurs
+limit_count: 1
+limits:
+- name: Requested request rate
+  limit_text: "ne pas dépasser une requête par minute"
+  max: 1
+  window: minute
+  scope: per-client (requested courtesy limit, not stated as enforced)
+note: Docs ask clients to cache (data changes at most hourly) and stay under one request per minute; no rate-limit headers or exhaustion status are documented.

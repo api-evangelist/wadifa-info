@@ -1,0 +1,35 @@
+generated: '2026-10-09'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/wadifa-info-openapi.yml
+vocabulary:
+  name: Wadifa Info Domain Vocabulary
+  description: 'Terms declared by Wadifa Info''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-09'
+  terms:
+  - term: Attribution
+    definition: 'Object declared by the contract with fields: license, license_url, required, docs.'
+    tags:
+    - Object
+    source: openapi/wadifa-info-openapi.yml#/components/schemas/Attribution
+  - term: Concours
+    definition: 'Object declared by the contract with fields: id, grade, employer, posts, published, deadline, url, official_notice.'
+    tags:
+    - Object
+    source: openapi/wadifa-info-openapi.yml#/components/schemas/Concours
+  - term: ConcoursList
+    definition: 'Object declared by the contract with fields: attribution, generated, count, items.'
+    tags:
+    - Object
+    source: openapi/wadifa-info-openapi.yml#/components/schemas/ConcoursList
+  - term: Salary
+    definition: 'Object declared by the contract with fields: grade, net_monthly_mad, url.'
+    tags:
+    - Object
+    source: openapi/wadifa-info-openapi.yml#/components/schemas/Salary
+  - term: SalaryList
+    definition: 'Object declared by the contract with fields: attribution, notice, count, items.'
+    tags:
+    - Object
+    source: openapi/wadifa-info-openapi.yml#/components/schemas/SalaryList

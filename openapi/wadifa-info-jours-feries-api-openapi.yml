@@ -1,0 +1,59 @@
+openapi: 3.2.0
+info:
+  title: Wadifa Info Jours Feries API
+  version: 1.0.0
+  contact:
+    email: contact@wadifa-info.com
+    url: https://www.wadifa-info.com/developpeurs
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  description: 'Operations tagged Jours Feries across 2 of this provider''s published API definitions: wadifa-info-openapi.json, wadifa-info-openapi.yml. Each path carries the servers of the definition it was published in.'
+servers:
+- url: https://www.wadifa-info.com
+tags:
+- name: Jours Feries
+paths:
+  /api/v1/jours-feries:
+    get:
+      summary: Moroccan public holidays for the current and next year (civil + Islamic…
+      responses:
+        '200':
+          description: Public holidays
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  source:
+                    type: string
+                  license:
+                    type: string
+                  note:
+                    type: string
+                  holidays:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        date:
+                          type: string
+                          format: date
+                        name_fr:
+                          type: string
+                        name_ar:
+                          type: string
+                        religious:
+                          type: boolean
+                        approximate:
+                          type: boolean
+                          description: true for Islamic holidays until the Ministry of Habous confirms the date
+      tags:
+      - Jours Feries
+      operationId: getApiV1JoursFeries
+      x-operation-id-source: derived
+    servers:
+    - url: https://www.wadifa-info.com
+x-refined-from:
+- wadifa-info-openapi.json
+- wadifa-info-openapi.yml

@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "@vocab": "https://wadifa-info.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "wadifa": "https://wadifa-info.com/schema#",
+    "Attribution": "wadifa:Attribution",
+    "license": {
+      "@id": "wadifa:license",
+      "@type": "xsd:string"
+    },
+    "license_url": {
+      "@id": "wadifa:license_url",
+      "@type": "@id"
+    },
+    "required": {
+      "@id": "wadifa:required",
+      "@type": "xsd:string"
+    },
+    "docs": {
+      "@id": "wadifa:docs",
+      "@type": "@id"
+    },
+    "Concours": "wadifa:Concours",
+    "id": {
+      "@id": "wadifa:id",
+      "@type": "xsd:integer"
+    },
+    "grade": {
+      "@id": "wadifa:grade",
+      "@type": "xsd:string"
+    },
+    "employer": {
+      "@id": "wadifa:employer",
+      "@type": "xsd:string"
+    },
+    "posts": {
+      "@id": "wadifa:posts",
+      "@type": "xsd:integer"
+    },
+    "published": {
+      "@id": "wadifa:published",
+      "@type": "xsd:date"
+    },
+    "deadline": {
+      "@id": "wadifa:deadline",
+      "@type": "xsd:date"
+    },
+    "url": {
+      "@id": "wadifa:url",
+      "@type": "@id"
+    },
+    "official_notice": {
+      "@id": "wadifa:official_notice",
+      "@type": "@id"
+    },
+    "ConcoursList": "wadifa:ConcoursList",
+    "attribution": {
+      "@id": "wadifa:attribution",
+      "@type": "@id"
+    },
+    "generated": {
+      "@id": "wadifa:generated",
+      "@type": "xsd:dateTime"
+    },
+    "count": {
+      "@id": "wadifa:count",
+      "@type": "xsd:integer"
+    },
+    "items": {
+      "@id": "wadifa:items",
+      "@container": "@list"
+    },
+    "Salary": "wadifa:Salary",
+    "net_monthly_mad": {
+      "@id": "wadifa:net_monthly_mad",
+      "@type": "xsd:integer"
+    },
+    "SalaryList": "wadifa:SalaryList",
+    "notice": {
+      "@id": "wadifa:notice",
+      "@type": "xsd:string"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Wadifa Info API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Wadifa Info's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-09) from openapi/wadifa-info-openapi.yml.",
+  "dcterms:created": "2026-10-09",
+  "dcterms:source": [
+    "openapi/wadifa-info-openapi.yml"
+  ]
+}

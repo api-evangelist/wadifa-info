@@ -1,28 +1,145 @@
 aid: wadifa-info
 name: Wadifa Info
-description: 'Wadifa Info is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+image: https://www.wadifa-info.com/index/GenerateHomeCard?lang=ar&d=20261009
+description: Wadifa Info is a Moroccan public-sector jobs portal (concours de la fonction
+  publique) based in Rabat, publishing a free, keyless, read-only JSON API of open
+  civil-service recruitment competitions, indicative net salaries by grade, public
+  holidays and school holidays, plus iCalendar agendas, RSS and CSV datasets under
+  CC BY 4.0.
 url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-09 (local-v5; was harvest)
 specificationVersion: '0.20'
 created: '2026-10-09'
 modified: '2026-10-09'
 tags:
 - Company
-apis: []
+- Jobs
+- Public Sector
+- Morocco
+- Open Data
+- Salaries
+- Government
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: AgenticAccess
+  url: agentic-access/wadifa-info-agentic-access.yml
+- type: RateLimits
+  url: rate-limits/wadifa-info-rate-limits.yml
+- type: Plans
+  url: plans/wadifa-info-plans-pricing.yml
+- type: Spectral
+  url: rules/wadifa-info-rules.yml
+- type: JSONLD
+  url: json-ld/wadifa-info-context.jsonld
+- type: Vocabulary
+  url: vocabulary/wadifa-info-vocabulary.yml
+- type: DataModel
+  url: data-model/wadifa-info-data-model.yml
+- type: Conventions
+  url: conventions/wadifa-info-conventions.yml
+- type: Conformance
+  url: conformance/wadifa-info-conformance.yml
+- type: LLMsTxt
+  url: llms/wadifa-info-llms.txt
+- type: Hosts
+  url: hosts/wadifa-info-hosts.yml
+- type: Vendors
+  url: vendors/wadifa-info-vendors.yml
+- type: DeveloperPortal
+  url: https://api.whatsapp.com/send?text=API+gratuite+des+concours+de+la+fonction+publique+au+Maroc%0ahttps%3a%2f%2fwww.wadifa-info.com%2fdeveloppeurs%3futm_source%3dshare%26utm_medium%3dwhatsapp
+- type: DomainSecurity
+  url: security/wadifa-info-domain-security.yml
 - type: Website
   url: https://www.wadifa-info.com/
 - type: Documentation
   url: https://www.wadifa-info.com/developpeurs
+- type: PrivacyPolicy
+  url: https://www.wadifa-info.com/index/PrivacyPolicy
+- type: Newsroom
+  url: https://www.wadifa-info.com/sitemap/news
+- type: RSS
+  url: https://www.wadifa-info.com/rss
+- type: Pricing
+  url: https://www.wadifa-info.com/developpeurs
+apis:
+- aid: wadifa-info:wadifa-info-agenda-api
+  name: Wadifa Info Agenda API
+  description: The Agenda API from Wadifa Info — 1 operation(s) for agenda.
+  humanURL: https://www.wadifa-info.com/developpeurs
+  tags:
+  - Agenda
+  properties:
+  - type: OpenAPI
+    url: openapi/wadifa-info-agenda-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/wadifa-info-concours-list-schema.json
+  - type: JSONSchema
+    url: json-schema/wadifa-info-salary-list-schema.json
+- aid: wadifa-info:wadifa-info-concours-api
+  name: Wadifa Info Concours API
+  description: The Concours API from Wadifa Info — 1 operation(s) for concours.
+  humanURL: https://www.wadifa-info.com/developpeurs
+  tags:
+  - Concours
+  properties:
+  - type: OpenAPI
+    url: openapi/wadifa-info-concours-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/wadifa-info-concours-list-schema.json
+  - type: JSONSchema
+    url: json-schema/wadifa-info-salary-list-schema.json
+- aid: wadifa-info:wadifa-info-jours-feries-api
+  name: Wadifa Info Jours Feries API
+  description: The Jours Feries API from Wadifa Info — 1 operation(s) for jours feries.
+  humanURL: https://www.wadifa-info.com/developpeurs
+  tags:
+  - Jours Feries
+  properties:
+  - type: OpenAPI
+    url: openapi/wadifa-info-jours-feries-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/wadifa-info-concours-list-schema.json
+  - type: JSONSchema
+    url: json-schema/wadifa-info-salary-list-schema.json
+- aid: wadifa-info:wadifa-info-salaires-api
+  name: Wadifa Info Salaires API
+  description: The Salaires API from Wadifa Info — 1 operation(s) for salaires.
+  humanURL: https://www.wadifa-info.com/developpeurs
+  tags:
+  - Salaires
+  properties:
+  - type: OpenAPI
+    url: openapi/wadifa-info-salaires-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/wadifa-info-concours-list-schema.json
+  - type: JSONSchema
+    url: json-schema/wadifa-info-salary-list-schema.json
+- aid: wadifa-info:wadifa-info-vacances-scolaires-api
+  name: Wadifa Info Vacances Scolaires API
+  description: The Vacances Scolaires API from Wadifa Info — 1 operation(s) for vacances scolaires.
+  humanURL: https://www.wadifa-info.com/developpeurs
+  tags:
+  - Vacances Scolaires
+  properties:
+  - type: OpenAPI
+    url: openapi/wadifa-info-vacances-scolaires-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/wadifa-info-concours-list-schema.json
+  - type: JSONSchema
+    url: json-schema/wadifa-info-salary-list-schema.json
 x-submission-notes: Free keyless Moroccan public-sector jobs API
-x-submission-probe: OpenAPI 3.1 5 ops; GET /api/v1/concours 200 JSON; invented path 404
+x-submission-probe: OpenAPI 3.1 5 ops; GET /api/v1/concours 200 JSON; invented path
+  404
 x-submitted-by: contact@wadifa-info.com (apis.io/add, 2026-10-09)
+x-enrichment:
+  date: '2026-10-09'
+  status: enriched
+  artifacts_added: 18
+  pass: local-v5

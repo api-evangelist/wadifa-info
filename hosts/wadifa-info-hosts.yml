@@ -1,0 +1,69 @@
+generated: '2026-10-09'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 2
+  other_domain: 1
+  platform: 1
+  roles:
+  - api
+  - other
+  - portal
+  - website
+hosts:
+- host: api.wadifa-info.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: wadifa-info.com
+  role: api
+  relation: own
+- host: api.whatsapp.com
+  found_by:
+  - pointer
+  - docs-index
+  types:
+  - DeveloperPortal
+  serves:
+  - docs
+  registrable_domain: whatsapp.com
+  role: portal
+  relation: other-domain
+- host: wadifainfo.github.io
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: github.io
+  role: other
+  relation: platform
+- host: www.wadifa-info.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - spec-found
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - Documentation
+  - PrivacyPolicy
+  - Newsroom
+  - RSS
+  - Pricing
+  serves:
+  - api
+  - docs
+  - spec
+  - cdn
+  vendor: cloudflare
+  registrable_domain: wadifa-info.com
+  role: website
+  relation: own

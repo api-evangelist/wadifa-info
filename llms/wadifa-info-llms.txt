@@ -1,0 +1,97 @@
+# Wadifa Info (wadifa-info.com)
+
+> Morocco's public-sector jobs and public-services guide: all government recruitment competitions
+> (concours de la fonction publique / مباريات الوظيفة العمومية), ANAPEC private-sector offers, exam results
+> and convocation lists, salary grids by grade, past exam papers, and step-by-step guides to official
+> Moroccan portals (NotifRH, RSU, CNIE, passport, Cursussup, Minhaty…) and visas for Moroccans.
+> Bilingual: Arabic (primary) and French. Guides are written from official sources only and name them;
+> each page shows its last-update date. Updated daily.
+
+## Jobs and competitions
+- [All open concours (AR)](https://www.wadifa-info.com/index/Index2?sortBy=4)
+- [Tous les concours (FR)](https://www.wadifa-info.com/fr/concours-emplois-publics-maroc)
+- [Exam results / نتائج المباريات](https://www.wadifa-info.com/نتائج-المباريات)
+- [Convocation lists / الاستدعاءات](https://www.wadifa-info.com/استدعاءات-المباريات)
+- [Closing this week / آخر أجل](https://www.wadifa-info.com/آخر-أجل-هذا-الأسبوع)
+- [Salary calculator / حاسبة الرواتب](https://www.wadifa-info.com/حساب-رواتب-الوظيفة-العمومية-بالمغرب)
+- [Civil-service statute / النظام الأساسي للوظيفة العمومية](https://www.wadifa-info.com/النظام-الأساسي-للوظيفة-العمومية)
+- [Concours DGSN (police)](https://www.wadifa-info.com/concours-dgsn-gov-ma)
+- [Concours FAR (armée)](https://www.wadifa-info.com/concours-recrutement-far-ma)
+- [Ministry of Education concours (all grades)](https://www.wadifa-info.com/concours-tawdif-men-gov-ma)
+- [Jobs without a diploma / فرص عمل بدون شهادة](https://www.wadifa-info.com/فرص-عمل-بدون-شهادة)
+
+## Private-sector jobs (updated daily)
+- [Offres d'emploi au Maroc, secteur privé (FR)](https://www.wadifa-info.com/fr/emplois-secteur-prive) · [وظائف القطاع الخاص (AR)](https://www.wadifa-info.com/وظائف-القطاع-الخاص) — each offer has its own page with the employer, city, requirements and a direct apply link
+- [ANAPEC offers by city](https://www.wadifa-info.com/fr/offres-emploi-anapec) · [Official employer feeds](https://www.wadifa-info.com/fr/offres-officielles-entreprises)
+
+## Past exam papers (2,500+ real papers from previous sessions, 1988-2026, many with suggested corrections)
+- [All papers (AR)](https://www.wadifa-info.com/نماذج-مباريات) · [Tous les modèles (FR)](https://www.wadifa-info.com/fr/modeles-concours)
+- By exam family (AR · FR): [Education / التعليم](https://www.wadifa-info.com/نماذج-مباريات/مباراة-التعليم) · [FR](https://www.wadifa-info.com/fr/modeles-concours/concours-enseignement); [Police DGSN / الأمن الوطني](https://www.wadifa-info.com/نماذج-مباريات/الأمن-الوطني) · [FR](https://www.wadifa-info.com/fr/modeles-concours/surete-nationale); [Technicians / تقنيين](https://www.wadifa-info.com/نماذج-مباريات/تقنيين) · [FR](https://www.wadifa-info.com/fr/modeles-concours/techniciens); [Administrators / متصرفين](https://www.wadifa-info.com/نماذج-مباريات/متصرفين) · [FR](https://www.wadifa-info.com/fr/modeles-concours/administrateurs); [State engineers / مهندسي الدولة](https://www.wadifa-info.com/نماذج-مباريات/مهندسي-الدولة) · [FR](https://www.wadifa-info.com/fr/modeles-concours/ingenieurs-etat); [Customs inspectors / مفتش الجمارك](https://www.wadifa-info.com/نماذج-مباريات/مفتش-الجمارك) · [FR](https://www.wadifa-info.com/fr/modeles-concours/inspecteur-douane); [Justice and court clerks / العدل](https://www.wadifa-info.com/نماذج-مباريات/العدل-وكتابة-الضبط) · [FR](https://www.wadifa-info.com/fr/modeles-concours/justice-greffe); [Ministry of Interior / الداخلية](https://www.wadifa-info.com/نماذج-مباريات/وزارة-الداخلية) · [FR](https://www.wadifa-info.com/fr/modeles-concours/ministere-interieur); [Higher schools / المدارس والمعاهد العليا](https://www.wadifa-info.com/نماذج-مباريات/المدارس-والمعاهد-العليا)
+
+## Concours guides, grades and salaries
+- [Teachers' concours (cadres des AREF): registration, conditions, dates](https://www.wadifa-info.com/مباراة-التعليم) · [FR](https://www.wadifa-info.com/fr/concours-enseignement-maroc)
+- [Customs inspectors concours](https://www.wadifa-info.com/مباراة-مفتشي-الجمارك) · [Labour inspector](https://www.wadifa-info.com/مفتش-الشغل) · [Forces Auxiliaires (mokhazni)](https://www.wadifa-info.com/concours-forces-auxiliaires) · [State engineer (FR)](https://www.wadifa-info.com/fr/concours-ingenieur-etat)
+- Grades and pay: [police grades](https://www.wadifa-info.com/fr/grades-police-maroc) · [police salaries](https://www.wadifa-info.com/fr/salaire-police-maroc) · [army grades](https://www.wadifa-info.com/fr/grades-armee-marocaine) · [military pay](https://www.wadifa-info.com/fr/salaire-militaire-maroc) · [Gendarmerie grades](https://www.wadifa-info.com/رتب-الدرك-الملكي) · [Gendarmerie pay](https://www.wadifa-info.com/fr/salaire-gendarmerie-maroc)
+- [Civil-service pay scales (échelles)](https://www.wadifa-info.com/fr/echelles-indice-fonction-publique-maroc) · [Minimum wage SMIG](https://www.wadifa-info.com/السميك-في-المغرب)
+
+## Official portals, step by step
+- [Tabligh / NotifRH (teachers' HR portal)](https://www.wadifa-info.com/fr/tabligh-notifrh-maroc) · [AR](https://www.wadifa-info.com/تبليغ-notifrh)
+- [RSU, Registre Social Unifié (rsu.ma)](https://www.wadifa-info.com/fr/guide-site-rsu-ma) · [AR](https://www.wadifa-info.com/دليل-موقع-rsu-ma)
+- [Direct social aid (asd.ma)](https://www.wadifa-info.com/دليل-موقع-asd-ma)
+- [CNIE appointment (cnie.ma)](https://www.wadifa-info.com/fr/service-cnie) · [AR](https://www.wadifa-info.com/خدمة-cnie)
+- [Moroccan passport: application, renewal, tracking](https://www.wadifa-info.com/fr/renouvellement-passeport-maroc)
+- [Court case tracking (mahakim.ma)](https://www.wadifa-info.com/خدمة-mahakim)
+- [Property certificate (ANCFCC)](https://www.wadifa-info.com/fr/certificat-propriete)
+- [E-timbre](https://www.wadifa-info.com/fr/service-e-timbre)
+- [Criminal record / good conduct certificate](https://www.wadifa-info.com/شهادة-حسن-السيرة)
+- [ANAPEC account and registration](https://www.wadifa-info.com/fr/guide-site-anapec-ma-inscription)
+- [Prison visit booking (Ziara platform)](https://www.wadifa-info.com/fr/plateforme-ziara-dgapr)
+- [Electoral lists](https://www.wadifa-info.com/خدمة-listes-electorales)
+
+## Students
+- [Cursussup (post-bac applications)](https://www.wadifa-info.com/fr/guide-site-cursussup-gov-ma)
+- [Minhaty scholarship](https://www.wadifa-info.com/fr/bourse-minhaty) · [Carte Minhaty](https://www.wadifa-info.com/fr/carte-minhaty)
+- [University housing (logement.onousc.ma)](https://www.wadifa-info.com/دليل-موقع-logement-onousc-ma)
+- [TelmidTICE](https://www.wadifa-info.com/fr/service-telmidtice)
+- [Master in Morocco](https://www.wadifa-info.com/fr/master-maroc)
+- [Licence professionnelle](https://www.wadifa-info.com/fr/licence-professionnelle-maroc)
+- [OFPPT vocational training](https://www.wadifa-info.com/التكوين-المهني-ofppt)
+- [Access competitions after the bac](https://www.wadifa-info.com/fr/concours-acces-ecoles)
+- [Diploma equivalence](https://www.wadifa-info.com/fr/equivalence-diplomes-maroc)
+
+## Visas and travel for Moroccans
+- [Visa-free countries for Moroccans](https://www.wadifa-info.com/fr/pays-sans-visa-marocains)
+- [Schengen visa from Morocco](https://www.wadifa-info.com/fr/visa-schengen-maroc)
+- Country guides: [France](https://www.wadifa-info.com/fr/visa-france-maroc), [Spain](https://www.wadifa-info.com/fr/visa-espagne-maroc), [USA](https://www.wadifa-info.com/fr/visa-usa-maroc), [Canada](https://www.wadifa-info.com/fr/visa-canada-maroc), [UK](https://www.wadifa-info.com/fr/visa-royaume-uni-maroc), [Italy](https://www.wadifa-info.com/fr/visa-italie-maroc), [Portugal](https://www.wadifa-info.com/fr/visa-portugal-maroc), [Belgium](https://www.wadifa-info.com/fr/visa-belgique-maroc), [Germany](https://www.wadifa-info.com/fr/visa-allemagne-maroc), [Switzerland](https://www.wadifa-info.com/fr/visa-suisse-maroc), [China](https://www.wadifa-info.com/fr/visa-chine-maroc), [Egypt](https://www.wadifa-info.com/fr/visa-egypte-maroc), [Russia](https://www.wadifa-info.com/fr/visa-russie-maroc), [Netherlands](https://www.wadifa-info.com/fr/visa-pays-bas-maroc), [Qatar](https://www.wadifa-info.com/fr/visa-qatar-maroc), [Japan](https://www.wadifa-info.com/fr/visa-japon-maroc), [Vietnam](https://www.wadifa-info.com/fr/visa-vietnam-maroc), [Singapore](https://www.wadifa-info.com/fr/visa-singapour-maroc), [Greece](https://www.wadifa-info.com/fr/visa-grece-maroc), [Hungary](https://www.wadifa-info.com/fr/visa-hongrie-maroc), [Poland](https://www.wadifa-info.com/fr/visa-pologne-maroc)
+- [eVisa / AEVM for foreigners visiting Morocco](https://www.wadifa-info.com/fr/evisa-maroc-aevm)
+
+## Everyday references
+- [Train timetables (ONCF)](https://www.wadifa-info.com/fr/service-oncf)
+- [Prayer times, Casablanca](https://www.wadifa-info.com/fr/horaires-priere/casablanca) (and every other city under /fr/horaires-priere/)
+- [Moroccan chart of accounts (CGNC)](https://www.wadifa-info.com/fr/plan-comptable-marocain)
+
+## Open data, statistics and embeds (free to reuse with attribution)
+- [Public-sector recruitment statistics 2012-2025](https://www.wadifa-info.com/fr/statistiques-recrutement-fonction-publique-maroc): posts announced per year, top employers and grades, application deadlines; built from the data.gov.ma open datasets "statistiques portail emploi public" (ODbL); also the 2012-2025 fragmentation series (posts per concours fell from 37.7 to 11.5; 56% of concours offer one post) and 2026 vs 2025 year-on-year
+- [Entry salary by diploma](https://www.wadifa-info.com/fr/salaire-par-diplome-fonction-publique): net starting salary of the reference grade open to each diploma, from vocational certificate (3,985 MAD) to doctorate (13,052 MAD); study dated 2026-10-08 (Arabic: /راتب-الوظيفة-العمومية-حسب-الشهادة)
+- [Public posts per 100,000 inhabitants by region](https://www.wadifa-info.com/fr/emploi-public-par-region): 12 regions, Aug 2024 - Oct 2026 concours vs HCP RGPH 2024 population (Laayoune-Sakia El Hamra 158, Marrakech-Safi 45); study dated 2026-10-08 (Arabic: /مناصب-الوظيفة-العمومية-حسب-الجهة)
+- [Indice Wadifa du recrutement public (monthly)](https://www.wadifa-info.com/fr/indice-recrutement-public): concours and posts in the latest complete month vs a year earlier, top 5 employers, last 14 months; updated on the 1st of each month (Arabic: /مؤشر-التوظيف-العمومي)
+- [Civil-service salary grid, 370 grades](https://www.wadifa-info.com/fr/grille-salariale-fonction-publique-maroc) · [AR](https://www.wadifa-info.com/سلم-رواتب-الوظيفة-العمومية): monthly net pay per grade, checked against the official MMSP simulator
+- [Embeddable salary calculator](https://www.wadifa-info.com/widget/salaire) (iframe; Arabic version: /widget/salaire?lang=ar); the embed code is on the salary-grid page
+- [Free JSON API and developer docs](https://www.wadifa-info.com/developpeurs): /api/v1/concours (open concours, hourly) and /api/v1/salaires (net pay by grade), no key, CORS open, CC BY 4.0 with a visible link to each item; OpenAPI at /openapi.json; iCalendar deadlines at /agenda/dates-limites; CSV files under /data/
+- [Who recruits in the Moroccan civil service (study, 2024-2026)](https://www.wadifa-info.com/fr/qui-recrute-fonction-publique-maroc): 8,223 concours / 103,089 posts counted once; ministries 14% of concours but 66% of posts, top-10 employers 62%, health 3rd recruiter, local authorities 5.4% of posts, median application window 16 days (legal minimum 15, décret 2-11-621 art. 4), Licence the most demanded diploma, Technicien 3e grade the most frequent grade; Arabic: /من-يوظف-في-الوظيفة-العمومية
+- [Moroccan public holidays and school breaks as calendar feeds](https://www.wadifa-info.com/agenda/jours-feries): iCalendar /agenda/jours-feries and /agenda/vacances-scolaires (?lang=ar), JSON /api/v1/jours-feries and /api/v1/vacances-scolaires; Islamic dates flagged approximate until confirmed
+- [Gross and net pay by échelon for every civil-service grade (CSV)](https://www.wadifa-info.com/data/salaires-par-echelon-fonction-publique-maroc.csv): official MMSP simulator figures, single, no children, 25% residence zone; one row per grade and échelon; JSON twin at /data/salaires-par-echelon-fonction-publique-maroc.json
+- [Teacher-training seats (CRMEF) by specialty and region](https://www.wadifa-info.com/fr/postes-concours-enseignement-par-specialite) · [AR](https://www.wadifa-info.com/مناصب-مباراة-التعليم-حسب-التخصص), from the official annexes, with the 2022-2025 trend
+- [Annual calendar of the main concours](https://www.wadifa-info.com/fr/calendrier-concours-maroc) · [one-page PDF](https://www.wadifa-info.com/Content/docs/calendrier-concours-maroc-2026-2027.pdf)
+- [Official notice PDFs hosted at stable URLs](https://www.wadifa-info.com/avis-officiel/115472) (pattern /avis-officiel/{id})
+- [Open dataset on GitHub Pages (CSV/JSON, CC BY 4.0)](https://wadifainfo.github.io/morocco-public-jobs-data/)
+- RSS feeds of new concours: [Arabic](https://www.wadifa-info.com/rss) · [French](https://www.wadifa-info.com/fr/rss)
+- How to cite: "Source: Wadifa Info (wadifa-info.com)", with a link to the page used.
+
+## Site structure
+- [Sitemap index](https://www.wadifa-info.com/sitemap)
+- Job pages carry JobPosting JSON-LD; guides carry Article (with dateModified), FAQPage and BreadcrumbList.
+
+## Contact
+- [Contact page](https://www.wadifa-info.com/index/ContactUs)
+- Facebook: https://www.facebook.com/wadifainfodotcom

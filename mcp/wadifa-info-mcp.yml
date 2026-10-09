@@ -1,0 +1,39 @@
+generated: '2026-10-09'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/wadifa-info-openapi.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: No MCP server was found. The pre-flight posted tools/list to /mcp on api.wadifa-info.com, www.wadifa-info.com; verdict absent. Candidate
+  tools below are derived from the 5 operation(s) in the provider's own OpenAPI (5 listed); they describe what a server WOULD expose, not one
+  that exists.
+tools:
+- name: get_v1_concours
+  operationId: GET /api/v1/concours
+  method: GET
+  path: /api/v1/concours
+  description: Open public-sector recruitment competitions
+- name: get_v1_salaires
+  operationId: GET /api/v1/salaires
+  method: GET
+  path: /api/v1/salaires
+  description: Indicative net monthly salary by civil-service grade
+- name: get_agenda_dates-limites
+  operationId: GET /agenda/dates-limites
+  method: GET
+  path: /agenda/dates-limites
+  description: iCalendar feed of open concours deadlines
+- name: get_v1_jours-feries
+  operationId: GET /api/v1/jours-feries
+  method: GET
+  path: /api/v1/jours-feries
+  description: Moroccan public holidays for the current and next year (civil + Islamic; Islamic dates are forecasts until the moon sighting)
+- name: get_v1_vacances-scolaires
+  operationId: GET /api/v1/vacances-scolaires
+  method: GET
+  path: /api/v1/vacances-scolaires
+  description: Moroccan school breaks for the 2026/2027 school year (ministerial decision 047.26)

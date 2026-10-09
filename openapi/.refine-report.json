@@ -1,0 +1,51 @@
+{
+  "provider": "wadifa-info",
+  "sources": [
+    "_original/wadifa-info-openapi.json",
+    "wadifa-info-openapi.yml"
+  ],
+  "outputs": [
+    "wadifa-info-agenda-api-openapi.yml",
+    "wadifa-info-concours-api-openapi.yml",
+    "wadifa-info-jours-feries-api-openapi.yml",
+    "wadifa-info-salaires-api-openapi.yml",
+    "wadifa-info-vacances-scolaires-api-openapi.yml"
+  ],
+  "archived": [
+    "archived openapi/wadifa-info-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "wadifa-info-openapi.json: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "wadifa-info-openapi.json: tagged paths GET /api/v1/concours -> Concours",
+    "wadifa-info-openapi.json: tagged paths GET /api/v1/salaires -> Salaires",
+    "wadifa-info-openapi.json: tagged paths GET /agenda/dates-limites -> Agenda",
+    "wadifa-info-openapi.json: tagged paths GET /api/v1/jours-feries -> Jours Feries",
+    "wadifa-info-openapi.json: tagged paths GET /api/v1/vacances-scolaires -> Vacances Scolaires",
+    "wadifa-info-openapi.json: declared missing tag: Agenda",
+    "wadifa-info-openapi.json: declared missing tag: Concours",
+    "wadifa-info-openapi.json: declared missing tag: Jours Feries",
+    "wadifa-info-openapi.json: declared missing tag: Salaires",
+    "wadifa-info-openapi.json: declared missing tag: Vacances Scolaires",
+    "wadifa-info-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "wadifa-info-openapi.yml: tagged paths GET /api/v1/concours -> Concours",
+    "wadifa-info-openapi.yml: tagged paths GET /api/v1/salaires -> Salaires",
+    "wadifa-info-openapi.yml: tagged paths GET /agenda/dates-limites -> Agenda",
+    "wadifa-info-openapi.yml: tagged paths GET /api/v1/jours-feries -> Jours Feries",
+    "wadifa-info-openapi.yml: tagged paths GET /api/v1/vacances-scolaires -> Vacances Scolaires",
+    "wadifa-info-openapi.yml: declared missing tag: Agenda",
+    "wadifa-info-openapi.yml: declared missing tag: Concours",
+    "wadifa-info-openapi.yml: declared missing tag: Jours Feries",
+    "wadifa-info-openapi.yml: declared missing tag: Salaires",
+    "wadifa-info-openapi.yml: declared missing tag: Vacances Scolaires",
+    "tag 'Agenda' spans 2 source specs (wadifa-info-openapi.json, wadifa-info-openapi.yml): per-path servers applied",
+    "tag 'Concours' spans 2 source specs (wadifa-info-openapi.json, wadifa-info-openapi.yml): per-path servers applied",
+    "tag 'Jours Feries' spans 2 source specs (wadifa-info-openapi.json, wadifa-info-openapi.yml): per-path servers applied",
+    "tag 'Salaires' spans 2 source specs (wadifa-info-openapi.json, wadifa-info-openapi.yml): per-path servers applied",
+    "tag 'Vacances Scolaires' spans 2 source specs (wadifa-info-openapi.json, wadifa-info-openapi.yml): per-path servers applied",
+    "apis.yml register: written (+5 apis, 5 total)"
+  ],
+  "skipped": []
+}
