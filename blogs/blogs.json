@@ -1,0 +1,14 @@
+{
+  "repo": "wadifa-info",
+  "feeds": [
+    {
+      "source": "https://www.wadifa-info.com/rss",
+      "feed_url": "https://www.wadifa-info.com/rss",
+      "title": "",
+      "saved": 17,
+      "method": "feed"
+    }
+  ],
+  "post_count": 17,
+  "fetched": "2026-10-10T13:15:00Z"
+}
