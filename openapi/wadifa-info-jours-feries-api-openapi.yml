@@ -1,14 +1,14 @@
 openapi: 3.2.0
 info:
-  title: Wadifa Info Jours Feries API
+  title: Wadifa Info public jobs API (Morocco) Jours Feries API
   version: 1.0.0
-  contact:
-    email: contact@wadifa-info.com
-    url: https://www.wadifa-info.com/developpeurs
+  description: 'Free read-only data on Moroccan public-sector recruitment (concours) and civil-service salaries. No key. CC BY 4.0: display ''Source: Wadifa Info'' with a visible link to each item''s url field.'
   license:
     name: CC BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  description: 'Operations tagged Jours Feries across 2 of this provider''s published API definitions: wadifa-info-openapi.json, wadifa-info-openapi.yml. Each path carries the servers of the definition it was published in.'
+  contact:
+    email: contact@wadifa-info.com
+    url: https://www.wadifa-info.com/developpeurs
 servers:
 - url: https://www.wadifa-info.com
 tags:
@@ -52,8 +52,3 @@ paths:
       - Jours Feries
       operationId: getApiV1JoursFeries
       x-operation-id-source: derived
-    servers:
-    - url: https://www.wadifa-info.com
-x-refined-from:
-- wadifa-info-openapi.json
-- wadifa-info-openapi.yml
