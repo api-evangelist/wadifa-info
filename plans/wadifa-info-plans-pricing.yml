@@ -14,3 +14,15 @@ plans:
   price_text: "Pas de clé, pas d'inscription"
   features: ["Licence : CC BY 4.0, usage commercial compris", "CORS ouvert"]
   limits: ["ne pas dépasser une requête par minute"]
+x-canonical:
+  generated: '2026-10-18'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Free open data API
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
