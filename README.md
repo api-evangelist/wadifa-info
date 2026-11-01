@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wadifa Info is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.wadifa-info.com/
+Wadifa Info is a Moroccan public-sector jobs portal (concours de la fonction publique) based in Rabat, publishing a free, keyless, read-only JSON API of open civil-service recruitment competitions, indicative net salaries by grade, public holidays and school holidays, plus iCalendar agendas, RSS and CSV datasets under CC BY 4.0.
+
+**Areas:** Company · Job · Public Sector · Morocco · Open Data · Salaries · Government
+
+## Wadifa Info on APIs.io
+
+Everything profiled for Wadifa Info is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wadifa-info/](https://apis.io/providers/wadifa-info/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Wadifa Info Agenda API](https://apis.io/apis/wadifa-info/wadifa-info-agenda-api/) — The Agenda API from Wadifa Info — 1 operation(s) for agenda.
+- [Wadifa Info Concours API](https://apis.io/apis/wadifa-info/wadifa-info-concours-api/) — The Concours API from Wadifa Info — 1 operation(s) for concours.
+- [Wadifa Info Jours Feries API](https://apis.io/apis/wadifa-info/wadifa-info-jours-feries-api/) — The Jours Feries API from Wadifa Info — 1 operation(s) for jours feries.
+- [Wadifa Info Salaires API](https://apis.io/apis/wadifa-info/wadifa-info-salaires-api/) — The Salaires API from Wadifa Info — 1 operation(s) for salaires.
+- [Wadifa Info Vacances Scolaires API](https://apis.io/apis/wadifa-info/wadifa-info-vacances-scolaires-api/) — The Vacances Scolaires API from Wadifa Info — 1 operation(s) for vacances scolaires.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [wadifa-info-mcp.yml](https://apis.io/servers/wadifa-info/wadifa-info-mcp-yml/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Wadifa Info Agentic Access](https://apis.io/agentic-access/wadifa-info/wadifa-info-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [ConcoursList](https://apis.io/schemas/wadifa-info/wadifa-info-concours-list/)
+- [SalaryList](https://apis.io/schemas/wadifa-info/wadifa-info-salary-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Wadifa Info Context](https://apis.io/jsonld/wadifa-info/wadifa-info-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Wadifa Info API Rules](https://apis.io/rules/wadifa-info/wadifa-info-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wadifa Info Domain Security](https://apis.io/security/wadifa-info/wadifa-info-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Wadifa Info Plans Pricing](https://apis.io/plans/wadifa-info/wadifa-info-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Wadifa Info Rate Limits](https://apis.io/rate-limits/wadifa-info/wadifa-info-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wadifa-info.com/)
+- [Documentation](https://www.wadifa-info.com/developpeurs)
+- [Pricing](https://www.wadifa-info.com/developpeurs)
+- [Privacy policy](https://www.wadifa-info.com/index/PrivacyPolicy)
+
+## API Evangelist rating
+
+**Kin Score 38.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 54.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 42.1 |
+
+**Agent readiness 20.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wadifa-info/](https://apis.io/providers/wadifa-info/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wadifa Info: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wadifa-info/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
